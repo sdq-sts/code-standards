@@ -1,6 +1,6 @@
 {
   "name": "@sdq-sts/code-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configurações padrão de código para meus projetos",
   "main": "eslint.config.js",
   "keywords": [
