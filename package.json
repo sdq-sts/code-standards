@@ -1,6 +1,6 @@
 {
   "name": "@sdq-sts/code-standards",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Configurações padrão de código para meus projetos",
   "main": "eslint.config.js",
   "keywords": [
@@ -19,14 +19,14 @@
   "license": "MIT",
   "type": "module",
   "peerDependencies": {
-    "eslint": "^9.12.0",
-    "prettier": "^3.3.3",
+    "@types/node": "^22.7.5",
     "@typescript-eslint/eslint-plugin": "^8.9.0",
     "@typescript-eslint/parser": "^8.9.0",
-    "eslint-plugin-vue": "^9.29.0",
-    "eslint-plugin-prettier": "^5.2.1",
     "@vue/eslint-config-prettier": "^10.0.0",
-    "@types/node": "^22.7.5"
+    "eslint": "^9.12.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.29.0",
+    "prettier": "^3.3.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
