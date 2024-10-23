@@ -14,7 +14,7 @@
   "author": "Sadraque Santos <sdq.sts@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdq-sts/code-standards.git"
+    "url": "git+https://github.com/sdq-sts/code-standards.git"
   },
   "license": "MIT",
   "type": "module",
