@@ -1,14 +1,13 @@
-import js from '@eslint/js';
-import typescriptPlugin from '@typescript-eslint/eslint-plugin';
-import typescriptParser from '@typescript-eslint/parser';
-import vuePlugin from 'eslint-plugin-vue';
-import vueParser from 'vue-eslint-parser';
-import prettierPlugin from 'eslint-plugin-prettier';
-import prettierConfig from 'eslint-config-prettier';
-import globals from 'globals';
+const js = require('@eslint/js');
+const typescriptPlugin = require('@typescript-eslint/eslint-plugin');
+const typescriptParser = require('@typescript-eslint/parser');
+const vuePlugin = require('eslint-plugin-vue');
+const vueParser = require('vue-eslint-parser');
+const prettierPlugin = require('eslint-plugin-prettier');
+const prettierConfig = require('eslint-config-prettier');
+const globals = require('globals');
 
-/** @type {import("eslint").FlatConfig[]} */
-export default [
+module.exports = [
   // Configurações recomendadas do ESLint para JavaScript
   js.configs.recommended,
 

@@ -1,6 +1,6 @@
 {
   "name": "@sdq-sts/code-standards",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Configurações padrão de código para meus projetos",
   "main": "eslint.config.mjs",
   "keywords": [
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/sdq-sts/code-standards.git"
   },
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "peerDependencies": {
     "@types/node": "^22.7.5",
     "@typescript-eslint/eslint-plugin": "^8.9.0",
