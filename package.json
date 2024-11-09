@@ -1,8 +1,9 @@
 {
   "name": "@sdq-sts/code-standards",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Configurações padrão de código para meus projetos",
   "main": "eslint.config.mjs",
+  "author": "Sadraque Santos <sdq.sts@gmail.com>",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -11,11 +12,15 @@
     "typescript",
     "vue"
   ],
-  "author": "Sadraque Santos <sdq.sts@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sdq-sts/code-standards.git"
   },
+  "files": [
+    "eslint.config.js",
+    "prettier.config.js",
+    "tsconfig.json"
+  ],
   "license": "MIT",
   "type": "commonjs",
   "peerDependencies": {
